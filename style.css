@@ -140,13 +140,14 @@ main {
 }
 
 .hero-card {
-  padding: 12px;
+  padding: 14px;
+  background: #1b2a4a;
+  border-color: #1b2a4a;
 }
 
 .hero-image {
   display: block;
   width: 100%;
-  border: 3px solid #1b2a4a;
   border-radius: 2px;
 }
 
