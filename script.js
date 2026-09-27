@@ -3,6 +3,21 @@
 // Videos: use "file" for a video you host in a /videos folder, or "embed" for a YouTube/Drive embed link.
 const videos = [
   {
+    from: "Papa",
+    type: "file",
+    src: "videos/WhatsApp Video 2026-09-27 at 11.28.38.mp4",
+  },
+  {
+    from: "Mama",
+    type: "file",
+    src: "videos/WhatsApp Video 2026-09-27 at 11.59.45.mp4",
+  },
+  {
+    from: "Dadu and the Bangalore Party",
+    type: "file",
+    src: "videos/WhatsApp Video 2026-09-27 at 11.33.03.mp4",
+  },
+  {
     from: "Dada",
     type: "file",
     src: "videos/WhatsApp Video 2026-09-27 at 10.59.18.mp4",
@@ -11,21 +26,6 @@ const videos = [
     from: "Mashi",
     type: "file",
     src: "videos/WhatsApp Video 2026-09-27 at 10.59.18 (1).mp4",
-  },
-  {
-    from: "Papa",
-    type: "file",
-    src: "videos/WhatsApp Video 2026-09-27 at 11.28.38.mp4",
-  },
-  {
-    from: "Dadu and the Bangalore Party",
-    type: "file",
-    src: "videos/WhatsApp Video 2026-09-27 at 11.33.03.mp4",
-  },
-  {
-    from: "Mama",
-    type: "file",
-    src: "videos/WhatsApp Video 2026-09-27 at 11.59.45.mp4",
   },
 ];
 
