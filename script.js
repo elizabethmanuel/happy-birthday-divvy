@@ -99,3 +99,10 @@ document.getElementById("carousel-left").addEventListener("click", () => {
 document.getElementById("carousel-right").addEventListener("click", () => {
   carousel.scrollBy({ left: 240, behavior: "smooth" });
 });
+
+document.getElementById("video-carousel-left").addEventListener("click", () => {
+  videoGrid.scrollBy({ left: -320, behavior: "smooth" });
+});
+document.getElementById("video-carousel-right").addEventListener("click", () => {
+  videoGrid.scrollBy({ left: 320, behavior: "smooth" });
+});
