@@ -139,6 +139,16 @@ I love you Diva, have a great 19 and enjoy it. Its our last teenage year 🙁`,
     from: "Joudy",
     body: `happy birthday to my big booty saudi/indian/latina, I CAN'T BELIEVE UR 19 NOW🥹🥹 (ur lowk too tiny to be 19). im so glad i got to meet someone as amazing as u, w fire music and tv show taste. i can't thank you enough for the countless times you've been there for me, for all the hospital sidequests, the "cooking together" (aka watching liz cook for us), drinks we've had together, and j rotation w fatoom (to many more at campus circle terrace inshallah🥂). ur one of the people i genuinely would trust my life with, and the most thoughtful and un-judgemental person ive ever met, and u remind me to hesitate before speaking sometimes(very grateful🙏🏻🙏🏻). u always have a smile on your face even when you're going through it and ur the most kind-hearted and selfless person ive met, and anyone who has you in their life is just as blessed as i am. i can't wait to watch you grow, make more memories w you, and watch you get with your saudi husband (i've accepted that it won't be mugaiteeb dw). i love you more than you can imagine fr and i hope 19 treats you as goated as you are my champaign legal diva, MWAHH💋💋`,
   },
+  {
+    from: "Hussain",
+    body: `Hi Divya!
+
+Its 3:05pm and Joody called me earlier that we were gonna surprise you at campus circle. Now, whether we were sneaky or not, I just wanna say HAPPY BIRTHDAY! You cant imagine how thankful I am to have met such a cheerful and lovely friend like yourself, and im really excited to spend the next 3 years laughing and being beside you. I see how hard you work and all I wanna say is just dont be too hard on yourself. Its because not everything in life is about a single number and when I glance at you I see more than just a straight As student, I see an embodiment of a sweet, generous, and cheerful human being that no matter what life throws at them, they'll still have a smile on your face.
+
+Keep smiling,
+All Love,
+Hussain`,
+  },
 ];
 
 // ---- TAB SWITCHING ----
