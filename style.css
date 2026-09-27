@@ -139,6 +139,17 @@ main {
   text-align: center;
 }
 
+.hero-card {
+  padding: 12px;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  border: 3px solid #1b2a4a;
+  border-radius: 2px;
+}
+
 h2 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 600;
