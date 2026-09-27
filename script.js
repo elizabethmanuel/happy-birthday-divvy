@@ -132,12 +132,12 @@ tabButtons.forEach((btn) => {
 const videoGrid = document.getElementById("video-grid");
 const videoSpotlight = document.getElementById("video-spotlight");
 
-function renderSpotlight(v) {
+function renderSpotlight(v, number) {
   const media =
     v.type === "embed"
       ? `<iframe src="${v.src}" allowfullscreen></iframe>`
       : `<video controls src="${v.src}"></video>`;
-  videoSpotlight.innerHTML = `${media}<p>${v.from}</p>`;
+  videoSpotlight.innerHTML = `${media}<p>${number}. ${v.from}</p>`;
 }
 
 function setActiveThumb(index) {
@@ -147,22 +147,23 @@ function setActiveThumb(index) {
 }
 
 videos.forEach((v, i) => {
+  const number = i + 1;
   const card = document.createElement("div");
   card.className = "video-card" + (i === 0 ? " active" : "");
   const thumbMedia =
     v.type === "embed"
       ? `<iframe src="${v.src}"></iframe>`
       : `<video muted src="${v.src}#t=0.1" preload="metadata"></video>`;
-  card.innerHTML = `${thumbMedia}<p>${v.from}</p>`;
+  card.innerHTML = `${thumbMedia}<p>${number}. ${v.from}</p>`;
   card.addEventListener("click", () => {
-    renderSpotlight(v);
+    renderSpotlight(v, number);
     setActiveThumb(i);
   });
   videoGrid.appendChild(card);
 });
 
 if (videos.length) {
-  renderSpotlight(videos[0]);
+  renderSpotlight(videos[0], 1);
 }
 
 // ---- RENDER LETTERS CAROUSEL ----
@@ -171,12 +172,13 @@ const modal = document.getElementById("letter-modal");
 const modalFrom = document.getElementById("modal-from");
 const modalBody = document.getElementById("modal-body");
 
-letters.forEach((letter) => {
+letters.forEach((letter, i) => {
+  const number = videos.length + i + 1;
   const card = document.createElement("div");
   card.className = "letter-card";
-  card.innerHTML = `<div class="envelope">✦</div><div class="from">${letter.from}</div>`;
+  card.innerHTML = `<div class="envelope">✦</div><div class="from">${number}. ${letter.from}</div>`;
   card.addEventListener("click", () => {
-    modalFrom.textContent = `From: ${letter.from}`;
+    modalFrom.textContent = `${number}. ${letter.from}`;
     modalBody.textContent = letter.body;
     modal.classList.add("open");
   });
