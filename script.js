@@ -1,5 +1,8 @@
 // ---- EDIT YOUR CONTENT HERE ----
 
+// Photos: filenames of images in the /photos folder.
+const photos = ["0612e08e-e550-438a-9470-8bc4bfece882.jpg","100_1332(1).jpeg","100_1332.jpeg","3b6f61ba-8f04-42fc-9f28-637414e5e13f.jpg","598397AB-88BC-460A-BDBD-005DABD0B943.jpg","65d5278c-2869-41fd-a927-826ab6066e4f.jpg","8fa3b1a4-a2c4-4bb7-b692-711e2fad4dd6.jpg","925a5704-8e22-4a40-8545-8e75d097e33e.jpg","959ca92c-97da-4f6b-b21f-69a0e9605272.jpg","A8A897E4-F167-41E0-8729-1B27A03BDA40.jpg","IMG_0565.jpg","IMG_1107.jpg","IMG_3204.jpg","IMG_3411.JPG","IMG_4273.jpg","IMG_4303.jpg","IMG_4426.jpg","IMG_4745.jpg","IMG_4751.jpg","IMG_8532.JPG","IMG_8585.JPG","IMG_8683.jpg","IMG_9411.JPG","IMG_9419.jpg","IMG_9712.jpg","PHOTO-2026-09-27-13-34-22(1).jpg","PHOTO-2026-09-27-13-34-22(10).jpg","PHOTO-2026-09-27-13-34-22(2).jpg","PHOTO-2026-09-27-13-34-22(3).jpg","PHOTO-2026-09-27-13-34-22(4).jpg","PHOTO-2026-09-27-13-34-22(5).jpg","PHOTO-2026-09-27-13-34-22(6).jpg","PHOTO-2026-09-27-13-34-22(7).jpg","PHOTO-2026-09-27-13-34-22(8).jpg","PHOTO-2026-09-27-13-34-22(9).jpg","PHOTO-2026-09-27-13-34-22.jpg","WhatsApp Image 2026-09-27 at 12.30.34 PM.jpeg","WhatsApp Image 2026-09-27 at 12.32.09 PM (1).jpeg","WhatsApp Image 2026-09-27 at 12.32.09 PM.jpeg","WhatsApp Image 2026-09-27 at 12.32.10 PM (1).jpeg","WhatsApp Image 2026-09-27 at 12.32.10 PM (2).jpeg","WhatsApp Image 2026-09-27 at 12.32.10 PM (3).jpeg","WhatsApp Image 2026-09-27 at 12.32.10 PM.jpeg","WhatsApp Image 2026-09-27 at 12.32.11 PM (1).jpeg","WhatsApp Image 2026-09-27 at 12.32.11 PM (2).jpeg","WhatsApp Image 2026-09-27 at 12.32.11 PM.jpeg","WhatsApp Image 2026-09-27 at 12.33.14 PM.jpeg","b49eb874-0893-4e0a-bc43-6bcc968cca38.jpg","b5355b06-0408-4cba-b501-40b1434a34ae.jpg","c8d527ee-aa19-4167-bad9-56caf6a64add.jpg","daddc9c9-23e6-4235-a6d2-a55511e1d873.jpg"];
+
 // Videos: use "file" for a video you host in a /videos folder, or "embed" for a YouTube/Drive embed link.
 const videos = [
   {
@@ -150,6 +153,34 @@ All Love,
 Hussain`,
   },
 ];
+
+// ---- RENDER PHOTO GRID ----
+const photoGrid = document.getElementById("photo-grid");
+const photoModal = document.getElementById("photo-modal");
+const photoModalImg = document.getElementById("photo-modal-img");
+
+photos.forEach((filename) => {
+  const img = document.createElement("img");
+  img.src = `photos/${filename}`;
+  img.loading = "lazy";
+  img.alt = "Divvy's birthday photo";
+  img.addEventListener("click", () => {
+    photoModalImg.src = `photos/${filename}`;
+    photoModal.classList.add("open");
+  });
+  photoGrid.appendChild(img);
+});
+
+document.getElementById("photo-modal-close").addEventListener("click", () => {
+  photoModal.classList.remove("open");
+  photoModalImg.src = "";
+});
+photoModal.addEventListener("click", (e) => {
+  if (e.target === photoModal) {
+    photoModal.classList.remove("open");
+    photoModalImg.src = "";
+  }
+});
 
 // ---- TAB SWITCHING ----
 const tabButtons = document.querySelectorAll(".tab-btn");
