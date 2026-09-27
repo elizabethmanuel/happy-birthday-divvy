@@ -304,7 +304,7 @@ h2 {
 .letter-card {
   position: relative;
   overflow: hidden;
-  background: var(--card-bg);
+  background: linear-gradient(var(--line), var(--line)) left 64px / 100% 1px no-repeat, var(--card-bg);
   border: 1px solid var(--line);
   border-radius: 4px;
   padding: 68px 20px 32px;
@@ -320,7 +320,7 @@ h2 {
   box-shadow: var(--shadow);
 }
 
-/* envelope flap */
+/* envelope flap: outer triangle in line color, inner triangle inset to leave a thin outline */
 .letter-card::before {
   content: "";
   position: absolute;
@@ -328,22 +328,19 @@ h2 {
   left: 0;
   right: 0;
   height: 64px;
-  background: linear-gradient(to bottom right, transparent 49.5%, var(--line) 49.5%, var(--line) 50.5%, transparent 50.5%),
-    linear-gradient(to bottom left, transparent 49.5%, var(--line) 49.5%, var(--line) 50.5%, transparent 50.5%);
-  background-size: 50% 100%;
-  background-position: left top, right top;
-  background-repeat: no-repeat;
+  background: var(--line);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
 }
 
-/* envelope fold lines */
 .letter-card::after {
   content: "";
   position: absolute;
-  top: 64px;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: var(--line);
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  height: 60px;
+  background: var(--card-bg);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
 }
 
 .letter-card .envelope {
