@@ -320,7 +320,7 @@ h2 {
   box-shadow: var(--shadow);
 }
 
-/* envelope flap: outer triangle in line color, inner triangle inset to leave a thin outline */
+/* envelope flap: a V drawn corner-to-corner, meeting at the seal */
 .letter-card::before {
   content: "";
   position: absolute;
@@ -328,26 +328,16 @@ h2 {
   left: 0;
   right: 0;
   height: 64px;
-  background: var(--line);
-  clip-path: polygon(0 0, 100% 0, 50% 100%);
-}
-
-.letter-card::after {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  height: 60px;
-  background: var(--card-bg);
-  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 64' preserveAspectRatio='none'%3E%3Cpath d='M0 0 L50 64 L100 0' fill='none' stroke='%23b08d4f' stroke-width='1'/%3E%3C/svg%3E")
+    no-repeat;
+  background-size: 100% 100%;
 }
 
 .letter-card .envelope {
   position: absolute;
-  top: 22px;
+  top: 64px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: 30px;
   height: 30px;
   border-radius: 50%;
