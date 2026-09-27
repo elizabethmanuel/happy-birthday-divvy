@@ -296,14 +296,17 @@ h2 {
 }
 
 .letter-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
 .letter-card {
   position: relative;
   overflow: hidden;
+  flex: 1 1 180px;
+  max-width: 220px;
   background: var(--card-bg);
   border: 1px solid var(--line);
   border-radius: 4px;
