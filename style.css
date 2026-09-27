@@ -126,6 +126,7 @@ main {
   color: var(--ink-soft);
   line-height: 1.8;
   font-weight: 300;
+  text-align: center;
 }
 
 h2 {
