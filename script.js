@@ -196,6 +196,12 @@ Enjoy your birthday,
 
 Faisal`,
   },
+  {
+    from: "Layan",
+    body: `surelllyyyyy
+
+happy birthday divya you are the goat fr. truly one of the kindest ppl so happy jana met u and then introduced u to us 👅. although i complain when i see u guys in grainger thats not true im acc happy to see you but refuse to say that. hopefully one day ill come to india and you'll show me around 😍🔥 till then i guess ill see you tomorrow at grainger, have a great birthday queen and enjoy it to the max 🎂🎂`,
+  },
 ];
 
 // ---- RENDER PHOTO GRID ----
