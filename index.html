@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Happy Birthday Divvy!</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="hero">
+  <h1>🎉 Happy Birthday, Divvy! 🎂</h1>
+  <p>A little something from all of us who love you.</p>
+</header>
+
+<nav class="tabs">
+  <button class="tab-btn active" data-tab="main">Main</button>
+  <button class="tab-btn" data-tab="videos">Videos</button>
+  <button class="tab-btn" data-tab="letters">Letters</button>
+</nav>
+
+<main>
+
+  <!-- MAIN TAB -->
+  <section id="main" class="tab-content active">
+    <div class="card">
+      <h2>Wishing you the happiest of birthdays!</h2>
+      <p>
+        Edit this section (in <code>index.html</code>, inside the
+        <code>#main</code> block) to write your main birthday message,
+        add photos, or anything else you'd like Divvy to see first.
+      </p>
+    </div>
+  </section>
+
+  <!-- VIDEOS TAB -->
+  <section id="videos" class="tab-content">
+    <h2>Videos from Friends</h2>
+    <div class="video-grid" id="video-grid">
+      <!-- Video cards are generated from script.js -->
+    </div>
+  </section>
+
+  <!-- LETTERS TAB -->
+  <section id="letters" class="tab-content">
+    <h2>Letters from Friends</h2>
+    <div class="carousel-wrap">
+      <button class="carousel-arrow left" id="carousel-left">&#8249;</button>
+      <div class="carousel" id="letter-carousel">
+        <!-- Letter cards are generated from script.js -->
+      </div>
+      <button class="carousel-arrow right" id="carousel-right">&#8250;</button>
+    </div>
+  </section>
+
+</main>
+
+<!-- Letter modal -->
+<div class="modal-overlay" id="letter-modal">
+  <div class="modal">
+    <button class="modal-close" id="modal-close">&times;</button>
+    <h3 id="modal-from"></h3>
+    <p id="modal-body"></p>
+  </div>
+</div>
+
+<footer>
+  <p>Made with love for Divvy's birthday 💛</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
