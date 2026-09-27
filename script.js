@@ -76,7 +76,7 @@ const modalBody = document.getElementById("modal-body");
 letters.forEach((letter) => {
   const card = document.createElement("div");
   card.className = "letter-card";
-  card.innerHTML = `<div class="envelope">💌</div><div class="from">From: ${letter.from}</div>`;
+  card.innerHTML = `<div class="envelope">✦</div><div class="from">${letter.from}</div>`;
   card.addEventListener("click", () => {
     modalFrom.textContent = `From: ${letter.from}`;
     modalBody.textContent = letter.body;
