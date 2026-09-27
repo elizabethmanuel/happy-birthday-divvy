@@ -54,18 +54,42 @@ tabButtons.forEach((btn) => {
   });
 });
 
-// ---- RENDER VIDEOS ----
+// ---- RENDER VIDEOS (spotlight + thumbnail strip) ----
 const videoGrid = document.getElementById("video-grid");
-videos.forEach((v) => {
-  const card = document.createElement("div");
-  card.className = "video-card";
+const videoSpotlight = document.getElementById("video-spotlight");
+
+function renderSpotlight(v) {
   const media =
     v.type === "embed"
       ? `<iframe src="${v.src}" allowfullscreen></iframe>`
       : `<video controls src="${v.src}"></video>`;
-  card.innerHTML = `${media}<p>From: ${v.from}</p>`;
+  videoSpotlight.innerHTML = `${media}<p>${v.from}</p>`;
+}
+
+function setActiveThumb(index) {
+  [...videoGrid.children].forEach((el, i) => {
+    el.classList.toggle("active", i === index);
+  });
+}
+
+videos.forEach((v, i) => {
+  const card = document.createElement("div");
+  card.className = "video-card" + (i === 0 ? " active" : "");
+  const thumbMedia =
+    v.type === "embed"
+      ? `<iframe src="${v.src}"></iframe>`
+      : `<video muted src="${v.src}#t=0.1" preload="metadata"></video>`;
+  card.innerHTML = `${thumbMedia}<p>${v.from}</p>`;
+  card.addEventListener("click", () => {
+    renderSpotlight(v);
+    setActiveThumb(i);
+  });
   videoGrid.appendChild(card);
 });
+
+if (videos.length) {
+  renderSpotlight(videos[0]);
+}
 
 // ---- RENDER LETTERS CAROUSEL ----
 const carousel = document.getElementById("letter-carousel");
