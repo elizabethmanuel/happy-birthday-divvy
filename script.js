@@ -114,7 +114,7 @@ I also miss eating together at the food truck, going to ILLINITES for all free s
 I'm so grateful to have met such an amazing person who makes me laugh every second we're together, and I look forward to making more great memories with you (and not falling while ice skating) Love you so much!!`,
   },
   {
-    from: "Elizabeth",
+    from: "Liz",
     body: `HAPPY BIRTHDAYYY I love you so much and I'm so glad we ended up here together. There's nobody I'd rather have by my side on this crazy journey. I hope you remember you still owe me food you cook, and I'm never gonna stop teasing you about the you-know-whos but I'll let you go for today. I hope you have the bestest day 🥰`,
   },
   {
@@ -134,6 +134,10 @@ Just know you will always have a third place to call home away from india and il
 Also know that you will always have a shoulder to cry on, someone to hold your hand when you're facing your fears, and be there to celebrate your highs. I'm always there for you, like you were always there for me.
 
 I love you Diva, have a great 19 and enjoy it. Its our last teenage year 🙁`,
+  },
+  {
+    from: "Joudy",
+    body: `happy birthday to my big booty saudi/indian/latina, I CAN'T BELIEVE UR 19 NOW🥹🥹 (ur lowk too tiny to be 19). im so glad i got to meet someone as amazing as u, w fire music and tv show taste. i can't thank you enough for the countless times you've been there for me, for all the hospital sidequests, the "cooking together" (aka watching liz cook for us), drinks we've had together, and j rotation w fatoom (to many more at campus circle terrace inshallah🥂). ur one of the people i genuinely would trust my life with, and the most thoughtful and un-judgemental person ive ever met, and u remind me to hesitate before speaking sometimes(very grateful🙏🏻🙏🏻). u always have a smile on your face even when you're going through it and ur the most kind-hearted and selfless person ive met, and anyone who has you in their life is just as blessed as i am. i can't wait to watch you grow, make more memories w you, and watch you get with your saudi husband (i've accepted that it won't be mugaiteeb dw). i love you more than you can imagine fr and i hope 19 treats you as goated as you are my champaign legal diva, MWAHH💋💋`,
   },
 ];
 
