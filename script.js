@@ -186,6 +186,16 @@ this love, it comes with no refund, no cancellation.
 
 - Your trying poet, Jana`,
   },
+  {
+    from: "Mugaiteeb",
+    body: `Hey Divya Happy Birthday. I wish you many more full of health wealth and happiness.
+
+Thank you for being a a friend that always pushes me to be better, for teaching me about indian culture (she wanna hang with an indian), and for always making it seem okay to skip class.
+
+Enjoy your birthday,
+
+Faisal`,
+  },
 ];
 
 // ---- RENDER PHOTO GRID ----
