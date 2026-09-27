@@ -117,6 +117,24 @@ I'm so grateful to have met such an amazing person who makes me laugh every seco
     from: "Elizabeth",
     body: `HAPPY BIRTHDAYYY I love you so much and I'm so glad we ended up here together. There's nobody I'd rather have by my side on this crazy journey. I hope you remember you still owe me food you cook, and I'm never gonna stop teasing you about the you-know-whos but I'll let you go for today. I hope you have the bestest day 🥰`,
   },
+  {
+    from: "Jouri",
+    body: `Dear Divya,
+
+I remember the first time I met you was your last birthday at PAR, with liz's cute cake. I thought nothing of it, I believed just passing by and saying happy birthday to you was going to be our first and last interaction. Boy am I glad it wasn't.
+
+I think about our side quests a lot; carle, cocomero, grainger, random walks. And I'm grateful I get to spend the best four years of my life alongside you.
+
+Our friendship has bloomed in ways I couldn't even imagine. You are a kind, caring, and beautiful person inside and out. And I hope that our bond comtinues to grow and that we will forever be friends.
+
+I'm coming to india one day, and you're surely coming to Saudi Arabia.
+
+Just know you will always have a third place to call home away from india and illinois.
+
+Also know that you will always have a shoulder to cry on, someone to hold your hand when you're facing your fears, and be there to celebrate your highs. I'm always there for you, like you were always there for me.
+
+I love you Diva, have a great 19 and enjoy it. Its our last teenage year 🙁`,
+  },
 ];
 
 // ---- TAB SWITCHING ----
