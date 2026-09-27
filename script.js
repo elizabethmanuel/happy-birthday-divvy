@@ -61,7 +61,7 @@ mwah,
 paluuk`,
   },
   {
-    from: "Ruchir",
+    from: "Ruch",
     body: `YOOOO guppy what's cookin good lookin‼️
 
 happy bday bwo ❤️❤️ LYSM HOPE U HAVE AN AMAZINT DAYY. ong uve always been there for me since 7th grade and genuinely have shaped me into the person I am today. I am extremely greatful to have grown up with someone who's extremely smart, hardworking but most importantly caring. Deadahh wlda been cooked in life without u. Hope college is going well and can't wait for our next gossip sesh.
@@ -96,7 +96,7 @@ Happy bdayyy again Divyyaa ❤️ JUST SAYING YOU HAVEN'T EVER GIVEN ME A BDAY T
 Love you loads, Divyy. Know that I will always be there for you and have your back. ❤️`,
   },
   {
-    from: "Tvisha",
+    from: "Tvshah",
     body: `Gosh, who knew playing frisbee would lead me here! You being my EVERYTHING, the best roommate, and my home away from home. You get me like no one else. The day we played UNO, clicked photos at Newman photobooth, and sat together on the basketball court outside PAR listening to each others crazy life stories was the day I realized how grateful I am to have met you.
 
 You inspire me everyday!
