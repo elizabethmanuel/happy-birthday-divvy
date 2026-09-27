@@ -113,6 +113,10 @@ I also miss eating together at the food truck, going to ILLINITES for all free s
 
 I'm so grateful to have met such an amazing person who makes me laugh every second we're together, and I look forward to making more great memories with you (and not falling while ice skating) Love you so much!!`,
   },
+  {
+    from: "Elizabeth",
+    body: `HAPPY BIRTHDAYYY I love you so much and I'm so glad we ended up here together. There's nobody I'd rather have by my side on this crazy journey. I hope you remember you still owe me food you cook, and I'm never gonna stop teasing you about the you-know-whos but I'll let you go for today. I hope you have the bestest day 🥰`,
+  },
 ];
 
 // ---- TAB SWITCHING ----
