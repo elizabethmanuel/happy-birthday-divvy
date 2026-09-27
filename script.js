@@ -3,15 +3,30 @@
 // Videos: use "file" for a video you host in a /videos folder, or "embed" for a YouTube/Drive embed link.
 const videos = [
   {
-    from: "Example Friend",
-    type: "file", // "file" or "embed"
-    src: "videos/example.mp4", // path to file, or embed URL
+    from: "From the fam!",
+    type: "file",
+    src: "videos/WhatsApp Video 2026-09-27 at 10.59.18.mp4",
   },
-  // {
-  //   from: "Another Friend",
-  //   type: "embed",
-  //   src: "https://www.youtube.com/embed/VIDEO_ID",
-  // },
+  {
+    from: "From the fam!",
+    type: "file",
+    src: "videos/WhatsApp Video 2026-09-27 at 10.59.18 (1).mp4",
+  },
+  {
+    from: "From the fam!",
+    type: "file",
+    src: "videos/WhatsApp Video 2026-09-27 at 11.28.38.mp4",
+  },
+  {
+    from: "From the fam!",
+    type: "file",
+    src: "videos/WhatsApp Video 2026-09-27 at 11.33.03.mp4",
+  },
+  {
+    from: "From the fam!",
+    type: "file",
+    src: "videos/WhatsApp Video 2026-09-27 at 11.59.45.mp4",
+  },
 ];
 
 // Letters: each one becomes a clickable card in the carousel.
